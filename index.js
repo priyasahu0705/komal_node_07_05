@@ -15,6 +15,10 @@ res.send("Logged In");
 app.get('/chai',(req,res)=>{
 res.send("Chai aur code");
 })
+app.get('/youtube',(req,res)=>{
+  res.send("welcome to our channel chai and code ")
+})
+
 
 app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${port}`)
